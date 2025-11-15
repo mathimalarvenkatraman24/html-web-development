@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <style>
+        
+        .title{
+            font-size: 50px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .bic{
+            color: blue;
+            font-size: 50px;
+            text-align:10px ;
+        }
+        .carousel-control-prev-icon {
+        background-color: darkorchid;
+      }
+
+      .carousel-control-next-icon {
+        background-color: darkorchid;
+      }
+      .card{
+        margin: 20px;
+      }
+    </style>
+</head>
+<body>
+     <!--Row1-Logo,company,icon,welcome,logout-->
+    <div class="row m-3">
+        <div class="col-1">
+            <center>
+            <img src="shin chan.webp" style="width: 100%;" alt="">
+            </center>
+        </div>
+        <div class="col-4 text-align">
+            <center>
+                <span class="title" style="color: rgb(8, 8, 8);">OOH SHINCHAN</span>
+                
+            </center>
+        </div>
+        <div class="col-3">
+            <i class="bi bi-instagram bic" style="color: deeppink;"></i>
+            <i class="bi bi-linkedin bic"></i>
+            <i class="bi bi-facebook bic "></i>
+            <i class="bi bi-youtube bic" style="color: rgb(196, 18, 24) ;"></i>
+            <i class="bi bi-whatsapp bic" style="color: rgb(0, 221, 41);"></i>
+
+        </div>
+        <div class="col-2" style="font-size: 30px;">WELCOME SHINCHAN</div>
+        <div class="col-2">
+            <a href="" style="color: rgb(74, 176, 231); font-size: 30px; text-decoration: none;">Logout</a>
+        </div> 
+    <!--Row2-menu bar,search bar-->
+    <div class="row " style="background-color: rgb(196, 18, 18);" >
+        <div class="col-9">
+            <nav class="navbar navbar-expand-lg ">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown link
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+        </div>
+        <div class="col-3">
+                <div class="input-group mb-3" style="padding: 10px;">
+                    <input type="text" class="form-control" placeholder="search the web " aria-label="search the web" aria-describedby="basic-addon2">
+                    <span class="input-group-text" id="basic-addon2"><i class="bi bi-search"></i></span>
+                </div>
+        </div>
+    </div>
+    <!--Row3-scrolling text-->
+    <div class="row">
+        <marquee behavior="" direction="">
+            <a style="font-size: 50px;" class="mar" href="">Welcome to shinchan home page</a>
+        </marquee>
+    </div>
+    <!--Row4-sliding images-->
+    <div class="row">
+        <div class="col-6">
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            style="
+              background-color: darkorchid;
+              border: 5px;
+              border-radius: 5px;
+            "
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>>
+          <button
+            type="button"
+            style="
+              background-color: darkorchid;
+              border: 5px;
+              border-radius: 5px;
+            "
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            style="
+              background-color: darkorchid;
+              border: 5px;
+              border-radius: 5px;
+            "
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            style="
+              background-color: darkorchid;
+              border: 5px;
+              border-radius: 5px;
+            "
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="shin love.gif" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="shinchan1.jfif" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="shinchan logo.jfif" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="SHIN.jpg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+        <div class="card" style="width: 20rem">
+        <img src="CHANS.webp" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">shinchan</h5>
+          <p class="card-text">Many of the jokes in the series stem from Shin-chan's occasionally weird, unnatural and inappropriate use of language, as well as from his mischievous behaviour. Consequently, non-Japanese readers and some viewers may find it difficult to understand his jokes. Some gags may require an understanding of Japanese culture and/or language to be fully appreciated; for example, his "Mr. Elephant" impression,</p>
+          <a href="#" class="btn btn-primary">Go </a>
+        </div>
+      </div>
+      <div class="card" style="width: 20rem">
+        <img src="images (2).jfif" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">shinchan</h5>
+          <p class="card-text">Set in the city of Kasukabe in Saitama Prefecture within the Greater Tokyo Area of Japan, the series follows the adventures of the five-year-old Shinnosuke "Shin" Nohara and his parents, baby sister, dog, neighbours, and best friends. Most of the plot is about Shin-chan's daily life, but it is often interspersed with fantastic and incredible elements.</p>
+          <a href="#" class="btn btn-primary">Go </a>
+        </div>
+    </div>
+    <!--Row5-cards-->
+    <div class="row">
+        <div style="display: flex;">
+      <div class="card" style="width: 20rem">
+        <img src="buri buri.gif" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">shinchan</h5>
+          <p class="card-text">Crayon Shin-chan (Japanese: クレヨンしんちゃん, Hepburn: Kureyon Shin-chan) is a Japanese manga series written and illustrated by Yoshito Usui. Crayon Shin-chan made its first appearance in 1990 in a Japanese weekly magazine called Weekly Manga Action, which was published by Futabasha. Due to the death of author Yoshito Usui, the manga in its original form ended on September 11, 2009. A new manga began in the summer of 2010 by members of Usui's team,[6] titled New Crayon Shin-chan (新クレヨンしんちゃん, Shin Kureyon Shin-chan).</p>
+          <a href="#" class="btn btn-primary">Go </a>
+        </div>
+      </div>
+      <div class="card" style="width: 20rem">
+        <img src="CHAN7.gif" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">shinchan</h5>
+          <p class="card-text">Many of the jokes in the series stem from Shin-chan's occasionally weird, unnatural and inappropriate use of language, as well as from his mischievous behaviour. Consequently, non-Japanese readers and some viewers may find it difficult to understand his jokes. Some gags may require an understanding of Japanese culture and/or language to be fully appreciated; for example, his "Mr. Elephant" impression,</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 20rem">
+        <img src="images (1).jfif" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">shinchan</h5>
+          <p class="card-text">Set in the city of Kasukabe in Saitama Prefecture within the Greater Tokyo Area of Japan, the series follows the adventures of the five-year-old Shinnosuke "Shin" Nohara and his parents, baby sister, dog, neighbours, and best friends. Most of the plot is about Shin-chan's daily life, but it is often interspersed with fantastic and incredible elements.</p>
+          <a href="#" class="btn btn-primary">Go</a>
+        </div>
+      </div>
+      <div class="card" style="width: 20rem">
+        <img src="shinchan logo.jfif" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">shinchan</h5>
+          <p class="card-text">The "real story" of Shinchan, which claims the character died in a car accident, is a popular internet hoax. Shinchan (Shinnosuke Nohara) is a fictional character created by author Yoshito Usui for the Crayon Shin-chan manga and anime series, which is still ongoing. The hoax likely originated because some internet users believe the series' continuation is a reflection of the characters' supposed deaths, a theory often debunked by the series' continued production and the author's own statements</p>
+          <a href="#" class="btn btn-primary">Go</a>
+        </div>
+      </div>
+    </div>
+    </div>
+</head>
+<body>
+</body>
+</html>
